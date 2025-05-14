@@ -1,4 +1,4 @@
-package usuario.model;
+package producto.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -7,9 +7,9 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class Rol {
-
+public class Producto {
     private Long id;
-    private String nombre;
-
+    private String nombre, descripcion;
+    private int precio;
+    private String categoria;
 }
